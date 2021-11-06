@@ -36,3 +36,7 @@ def register():
 
 def bankOperation():
     "This function enable customers to carried out each banking operation"
+def accountNumberGenerator():
+    #print("This is you account number")
+    return random.randrange(111111111,999999999)
+init()
